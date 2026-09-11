@@ -1,0 +1,2 @@
+What is a constructor?
+Design a java program with constructor and initialize an object with constructor.
