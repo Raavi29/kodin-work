@@ -1,0 +1,1 @@
+Constructor was defined and the object was initialized using constructor successfully.
