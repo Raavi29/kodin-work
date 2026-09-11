@@ -1,0 +1,11 @@
+A constructor is a special method in java used to set up or initialize an object when it is created.
+
+Algorithm:
+
+Step 1: Start
+Step 2: Define a class with variables
+Step 3: Create a constructor inside the class to sey values for those variables
+Step 4: Add a method to print the variable values
+Step 5: In the main method, create objects using the new keyword and pass the values
+Step 6: Call the show method to print the details
+Step 7: Stop
