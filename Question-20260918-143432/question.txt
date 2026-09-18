@@ -1,0 +1,1 @@
+Demonstrate Single level Inheritance in Java .
