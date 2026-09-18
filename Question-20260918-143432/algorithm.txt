@@ -1,0 +1,8 @@
+Step 1: Start
+Step 2: Define the parent class Animal with variable name and method show() to display the name
+Step 3: Define the child class Rabbit that inherits from Animal using the extends keyword, containing variable age and method Eat()
+Step 4: Define the main class code containing the main method
+Step 5: Create an object a1 of the parent class Animal and set its name
+Step 6: Create an object r1 of the child class Rabbit
+Step 7: Set the inherited name variable for r1, then call the inherited show() method and child-specific Eat() method
+Step 8: Stop
