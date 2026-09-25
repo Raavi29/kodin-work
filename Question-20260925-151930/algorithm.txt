@@ -1,0 +1,15 @@
+Step 1: Start 
+Step 2: Define an Abstract class Vehicle
+Step 3: Declare an abstract method startEngine() without a body
+Step 4: Define subclass Car
+Step 5: Extend the abstract class Vehicle
+Step 6: Override the startEngine() method to display a message specific to starting a car.
+Step 7: Define subclass Motorcycle
+Step 8: Extend the abstract class Vehicle
+Step 9: Override the startEngine() method to display a message specific to starting a motorcycle.
+Step 10: Create main class
+Step 11: Instantiate an object of the Car class
+Step 12: Instantiate an object of the Motorcycle class
+Step 13: Call the startEngine() method using the Car object.
+Step 14: Call the startEngine() method using the Motorcycle object.
+Step 15: Stop
