@@ -1,0 +1,7 @@
+Create a Java program using an abstract class Vehicle that contains an abstract method startEngine(). Create two subclasses, Car and Motorcycle, that implement the startEngine() method.
+
+The program should:
+
+Create objects of Car and Motorcycle.
+Call the startEngine() method for both vehicles.
+Display different messages for starting the car and motorcycle.
