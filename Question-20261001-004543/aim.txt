@@ -1,0 +1,7 @@
+Create a Java program to demonstrate method overriding using an Employee superclass and different types of employees.
+Create a superclass Employee with a method calculateSalary() that displays "Calculating employee salary".
+Create two subclasses, FullTimeEmployee and PartTimeEmployee, that override the calculateSalary() method.
+The FullTimeEmployee class should calculate and display the salary based on a fixed monthly salary.
+The PartTimeEmployee class should calculate and display the salary based on hours worked x hourly rate.
+In the main() method, use an Employee reference to create objects of both subclasses and call calculateSalary().
+Demonstrate how runtime polymorphism allows the appropriate overriden method to execute.
