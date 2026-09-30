@@ -1,0 +1,8 @@
+Step 1: Start
+Step 2: Initialize an array
+Step 3: Declare and initialize an integer array with sample elements
+Step 4: Traverse the array
+Step 5: Use a loop (such as a for loop or enhanced for-each loop) to iterate through each index from 0 to array.length-1
+Step 6: Print elements
+Step 7: Access and display each element of the array during iteration
+Step 8: Stop
