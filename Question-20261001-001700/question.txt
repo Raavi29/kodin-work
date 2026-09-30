@@ -1,0 +1,8 @@
+Create a Java class Calculator that demonstrates method overloading by defining multiple add() methods:
+
+add(int a, int b) — adds two integers.
+add(double a, double b) — adds two decimal numbers.
+add(int a, int b, int c) — adds three integers.
+add(int a, int b, int c, int d) - adds four integers
+
+Create a main() method to call all three overloaded methods and display their results.
