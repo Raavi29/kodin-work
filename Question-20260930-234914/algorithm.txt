@@ -1,0 +1,10 @@
+Step 1: Start
+Step 2: Define Student Class
+Step 3: Declare instance variables name (String) and rollNumber (int)
+Step 4: Define a constructor to initialize name and rollNumber
+Step 5: Define a method desplayDetails() to print teh student's name and roll number
+Step 6: Execute the main method
+Step 7: Check if instantiation data is valid(i.e., non-null name and positive roll number) to execute safe execution
+Step 8: Instantiate two Student objects with sample data
+Step 9: Call displayDetails() on each object to output the student information
+Step 10: Stop
