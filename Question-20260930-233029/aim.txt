@@ -1,0 +1,1 @@
+Write a java program to traverse an array of integers
