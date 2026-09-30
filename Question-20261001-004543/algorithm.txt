@@ -1,0 +1,16 @@
+Step 1: Start
+Step 2: Define Superclass Employee
+Step 3: Define a method calculateSalary() that prints "Calculating employee salary"
+Step 4: Define Subclass FullTimeEmployee
+Step 5: Extend Employee class
+Step 6: Add instance variable monthlySalary
+Step 7: Override calculateSalary() to compute and display fixed monthly salary
+Step 8: Define Subclass PartTimeEmployee
+Step 9: Extend Employee class
+Step 10: Add instance variables hoursWorked and hourlyRate
+Step 11: Override calculateSalary() to compute salary as hoursWorked x hourlyRate and display the output
+Step 12: Execute main method
+Step 13: Declare an Employee reference variable
+Step 14: Assign a new FullTimeEmployee object to the reference and call calculateSalary() to demonstrate dynamic method dispatch
+Step 15: Assign a new PartTimeEmployee object to the reference and call calculateSalary() to demonstrate runtime polymorphism
+Step 16: Stop
