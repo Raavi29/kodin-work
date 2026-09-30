@@ -1,0 +1,11 @@
+Step 1: Start
+Step 2: Define Calculator class
+Step 3: Define overloaded add(int a, int b) method to return the sum of two integers
+Step 4: Define overloaded add(double a, double b) method to return the sum of two double precision decimal numbers
+Step 5: Define overloaded add(int a, int b, int c) method to return the sum of three integers
+Step 6: Define overloaded add(int a, int b, int c, int d) method to return the sum of four integers
+Step 7: Execute main method
+Step 8: Instantiate an object of the Calculator class
+Step 9: Call each overloaded add() method sequentially with valid sample inputs
+Step 10: Display the returned sum for each method call clearly
+Step 11: Stop
