@@ -1,0 +1,1 @@
+Successfully implemented array traversal in Java using a loop to access and display each integer element seqentially from start to end
