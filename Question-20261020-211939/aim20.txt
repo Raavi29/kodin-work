@@ -1,0 +1,1 @@
+To compare a non-synchronized counter, a synchronized counter and an AtomicInteger counter, each incremented 1000 times by 10 threads, and to measure their correctness and execution time.
