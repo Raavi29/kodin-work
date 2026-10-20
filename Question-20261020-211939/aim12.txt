@@ -1,0 +1,1 @@
+To implement an immutable class ImmutableEmployee whose fields cannot change after creation, and to show that any modification is impossible.
