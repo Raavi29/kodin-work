@@ -1,0 +1,1 @@
+ImmutableEmployee cannot be changed after construction: the fields are private and final, there are no setters and the class is final. Trying e1.salary = 90000 gives the compile errors "salary has private access" and, inside the class, "cannot assign a value to final variable salary". A change produces a new object while the original stays the same.
