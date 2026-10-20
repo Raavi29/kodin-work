@@ -1,0 +1,10 @@
+Step 1: Start
+Step 2: Define class BankAccount with private fields balance, accountNumber (final) and holderName
+Step 3: Write a constructor that sets the fields and rejects a negative opening balance
+Step 4: Write deposit(amount): accept only a positive amount and add it to balance
+Step 5: Write withdraw(amount): reject zero or negative amounts, reject amounts greater than balance (no overdraft), otherwise subtract
+Step 6: Provide public getters for all three fields and no setter for balance
+Step 7: In the test class, create an account and call deposit and withdraw with valid and invalid amounts
+Step 8: Show that acc.balance = 999999 is a compile error because the field is private
+Step 9: Print the final balance
+Step 10: Stop
