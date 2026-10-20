@@ -1,0 +1,1 @@
+To simulate a deadlock between two transfer threads in a banking system, detect it, and resolve it using the lock ordering strategy.
