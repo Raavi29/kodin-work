@@ -1,0 +1,1 @@
+An interface defined one contract that four unrelated devices implemented in their own way. A single List<SmartDevice> and a plain loop controlled every device, so a new device can be added without changing the loop.
