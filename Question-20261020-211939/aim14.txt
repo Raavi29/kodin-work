@@ -1,0 +1,1 @@
+To create an interface SmartDevice, implement it in Light, Fan, AirConditioner and SecurityCamera, and control all devices through a List<SmartDevice> using loops.
