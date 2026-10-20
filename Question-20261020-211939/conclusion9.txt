@@ -1,0 +1,1 @@
+A billing program was built with String, double, int, an array and objects. Implicit casting (int to double, long, float) happened automatically because no data is lost. Explicit casting needed a cast operator and lost information: 1189.79 became 1189 with (int), while Math.round gave 1190.
