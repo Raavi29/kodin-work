@@ -1,0 +1,8 @@
+Step 1: Start
+Step 2: Define class Employee with name, basicSalary, computeSalary() returning the basic salary, and show()
+Step 3: Define class Manager extending Employee with teamSize; override computeSalary() to return super.computeSalary() plus a team bonus of 2000 per member
+Step 4: Define class Director extending Manager with performanceRating; override computeSalary() to return super.computeSalary() plus an incentive of 10000 per rating point
+Step 5: In main, create an Employee, a Manager and a Director, but store all three in Employee references in one array
+Step 6: Loop through the array and call show(), which calls computeSalary()
+Step 7: Print the salaries
+Step 8: Stop
