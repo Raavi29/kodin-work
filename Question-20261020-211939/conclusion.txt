@@ -1,0 +1,1 @@
+Downcasting gives access to subclass methods that the base reference cannot see, and instanceof tells which cast is safe. A wrong cast compiles but throws ClassCastException at run time, because the compiler only checks that the types are related. Testing with instanceof before casting avoids the crash.
