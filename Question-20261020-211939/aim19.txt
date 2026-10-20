@@ -1,0 +1,1 @@
+To demonstrate a race condition in a ticket booking system where 10 threads try to book the last seat, and to fix it using the synchronized keyword.
