@@ -1,0 +1,10 @@
+Step 1: Start
+Step 2: Define a class Product with name (String), price (double), quantity (int) and total (double)
+Step 3: In the constructor, calculate total = price * quantity (the int quantity is implicitly widened to double)
+Step 4: In main, create an array of Product objects to act as the cart
+Step 5: Loop through the cart, print each item and add its total to bill and its quantity to totalItems
+Step 6: Calculate discount = bill * discountPercent / 100 and finalBill = bill - discount (int is implicitly converted to double)
+Step 7: Show implicit casting by assigning the int totalItems to a long and a float variable
+Step 8: Show explicit casting using (int) finalBill, (int) Math.round(finalBill) and (float) finalBill
+Step 9: Print all results
+Step 10: Stop
