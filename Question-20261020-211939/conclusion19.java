@@ -1,0 +1,1 @@
+Without synchronization all 10 threads passed the seats > 0 check before any of them reduced the count, so 10 bookings were made for 1 seat and seats went to -9 (overbooking). With synchronized, only one thread could check and book at a time, so exactly 1 booking succeeded and the other 9 correctly found no seat.
