@@ -1,0 +1,1 @@
+The balance can be changed only through deposit() and withdraw(), and both enforce the business rules. Invalid operations were rejected and the balance stayed correct. Making the fields private and exposing controlled methods is encapsulation.
