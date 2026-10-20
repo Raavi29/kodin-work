@@ -1,0 +1,7 @@
+Step 1: Start
+Step 2: Define abstract class PaymentProcessor with transactionId, amount, a constructor, and abstract methods initiatePayment(), validateTransaction() and generateReceipt()
+Step 3: Add a final method process() that calls initiatePayment(), then generateReceipt() only if validateTransaction() returns true
+Step 4: Define CreditCardPayment, UPIPayment, NetBankingPayment and WalletPayment, each extending PaymentProcessor and implementing all three methods with its own rules
+Step 5: In main, create an array of PaymentProcessor references holding one object of each subclass (one wallet payment is made to fail on purpose)
+Step 6: Loop through the array and call process() on each
+Step 7: Stop
