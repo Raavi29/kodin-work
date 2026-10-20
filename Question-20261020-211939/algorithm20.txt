@@ -1,0 +1,9 @@
+Step 1: Start
+Step 2: Define interface Counter with increment() and get()
+Step 3: Define UnsafeCounter (plain count++), SyncCounter (synchronized methods) and AtomicCounter (AtomicInteger.incrementAndGet())
+Step 4: Define Shopper (Runnable) that waits on a CountDownLatch and then calls increment() 1000 times
+Step 5: Write test(): create 10 threads, start them, record System.nanoTime(), release the latch so they all run together, join them and record the end time
+Step 6: Print the final count, the expected count (10000), whether it is correct and the time taken
+Step 7: Call test() for each of the three counters
+Step 8: Explain the results
+Step 9: Stop
