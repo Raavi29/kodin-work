@@ -1,0 +1,9 @@
+Step 1: Start
+Step 2: Define class OrderQueue with a LinkedList buffer and a fixed capacity
+Step 3: Write synchronized placeOrder(): while the queue is full call wait(); then add the dish and call notifyAll()
+Step 4: Write synchronized serveOrder(): while the queue is empty call wait(); then remove a dish and call notifyAll()
+Step 5: Define thread class Chef that places six dishes with a short sleep between them
+Step 6: Define thread class Waiter that serves six dishes with a longer sleep between them
+Step 7: In main, create one OrderQueue with capacity 2, start both threads and join them
+Step 8: Print that all orders are served
+Step 9: Stop
