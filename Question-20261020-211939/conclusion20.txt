@@ -1,0 +1,1 @@
+Plain count++ is not atomic (read, add, write), so on a multi-core machine updates get lost and the total usually ends below 10000. The synchronized counter and the AtomicInteger counter always reach 10000. synchronized uses a lock, AtomicInteger uses lock-free compare-and-swap and is usually faster under contention. The unsynchronized version is fastest only because it is wrong.
