@@ -1,0 +1,9 @@
+Step 1: Start
+Step 2: Declare the class final so it cannot be subclassed
+Step 3: Declare name, empId and salary as private final
+Step 4: Set all fields once in the constructor
+Step 5: Provide getters only, no setters
+Step 6: Provide withSalary(newSalary) that returns a new ImmutableEmployee instead of changing the current one
+Step 7: In main, create e1, try the forbidden changes (shown as commented lines that fail to compile), then create e2 with withSalary(55000)
+Step 8: Print e1 and e2 to show that e1 is unchanged and e2 is a different object
+Step 9: Stop
