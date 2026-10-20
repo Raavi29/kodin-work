@@ -1,0 +1,1 @@
+The chef and the waiter shared one queue safely. wait() made the chef stop when the counter was full and the waiter stop when it was empty, and notifyAll() woke the other side when the situation changed. No order was lost or served twice, and the loops around wait() guard against early wake-ups.
