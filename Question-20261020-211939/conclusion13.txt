@@ -1,0 +1,1 @@
+The abstract class fixed the steps every payment must have, and each subclass supplied its own validation and receipt. One loop over PaymentProcessor references handled four payment types, and the right version of each method ran at run time. The wallet payment failed validation and produced no receipt.
