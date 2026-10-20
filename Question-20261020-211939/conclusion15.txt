@@ -1,0 +1,1 @@
+Each level of the hierarchy reused the salary of the level above through super.computeSalary() and added its own part. Although every variable had the type Employee, the method that ran was decided by the real object (Employee 30000, Manager 60000, Director 154000). This is method overriding and runtime polymorphism.
