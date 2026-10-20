@@ -1,0 +1,9 @@
+Step 1: Start
+Step 2: Define a class Account with accountNumber and holder
+Step 3: Override equals() so that two accounts are equal when their account numbers match, and override hashCode() to stay consistent
+Step 4: Define a second class PlainAccount without overriding equals()
+Step 5: In main, create a1 and a2 with the same account number, a3 as a second reference to a1, and a4 with a different number
+Step 6: Compare with == and with equals() and print the results
+Step 7: Compare two PlainAccount objects with equals() to show the default behaviour
+Step 8: Compare Strings (literal, literal, new String) with == and equals() to show the string pool effect
+Step 9: Stop
