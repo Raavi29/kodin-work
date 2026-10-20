@@ -1,0 +1,44 @@
+Section A: Theory (Questions 1–8) Upload Handwritten Notes as attachment in Kodin
+
+1.	Explain the architecture of the Java Virtual Machine (JVM). How does it enable platform independence? Describe the roles of the class loader, bytecode verifier, and execution engine using a real-world deployment analogy.
+
+2.	Explain the Java Collections Framework hierarchy. Using a Student Enrollment System as context, justify which of HashMap, HashSet, and TreeMap is best suited for fast lookup, unique records, and sorted output.
+
+3.	Explain encapsulation with a real-world example (such as a MobilePhone hiding its internals). Discuss JavaBeans and their connection to encapsulation, and explain why immutability is a special form of encapsulation, including its advantages in multi-threaded applications.
+
+4.	Differentiate between an abstract class and an interface with a real-world analogy. Explain the role of default and static methods in interfaces (Java 8+) and their impact on backward compatibility.
+
+5.	Why does Java not support multiple inheritance through classes? Explain the Diamond Problem with an example and show how interfaces resolve it.
+
+6.	Explain the Thread lifecycle (New, Runnable, Running, Blocked/Waiting, Terminated). Compare the two ways of creating threads: extending the Thread class vs implementing the Runnable interface.
+
+7.	Differentiate between sleep(), wait(), notify(), and notifyAll(). Explain how they are used for inter-thread communication.
+
+8.Define race condition and deadlock with real-world examples. Explain the synchronized keyword (methods and blocks), the volatile keyword (when it is and is not sufficient), and how java.util.concurrent classes such as AtomicInteger and ConcurrentHashMap help.
+
+Section B: Implementation in Kodin IDE (Questions 9–20)
+
+9.A retail billing system stores product name, price, quantity, and total bill. Write a Java program using appropriate primitive and non-primitive data types.
+Demonstrate type casting (implicit and explicit) within the billing calculation.
+
+10.Differentiate between the == operator and the .equals() method. Using a Bank Account scenario, compare two account objects by reference and by content (account number), and explain the output.
+
+11.Implement a BankAccount class that encapsulates balance, account number, and account holder name. The balance must be modified only through deposit() and withdraw() methods with business rule validations (e.g., no overdraft). Write a test class demonstrating the encapsulation.
+
+12.Implement an immutable class ImmutableEmployee (name, empId, salary) whose fields cannot be modified once the object is created. Demonstrate that modification is not possible.
+
+13.Design an abstract class PaymentProcessor with abstract methods initiatePayment(), validateTransaction(), and generateReceipt(). Implement four concrete subclasses: Credit Card, UPI, Net Banking, and Wallet.
+
+14.A Smart Home system controls Lights, Fan, AirConditioner, and SecurityCamera. Create an interface SmartDevice with turnOn(), turnOff(), and getStatus(). Implement each device and control all of them using a List<SmartDevice> in a single loop.
+
+15.Implement the hierarchy Employee → Manager → Director using multilevel inheritance. Each level overrides computeSalary() (team bonus for Manager, performance incentive for Director). Demonstrate polymorphism via a base class reference.
+
+16.A banking application has Account as the base class with subclasses SavingsAccount, CurrentAccount, and LoanAccount. Use the instanceof operator and downcasting to perform type-specific operations. Demonstrate the risk of improper casting and how to avoid it.
+
+17.Implement the Producer-Consumer problem using a shared buffer (an order queue in a restaurant kitchen). The chef (producer) and waiter (consumer) must coordinate using wait() and notify().
+
+18.Simulate a deadlock in a Banking Transfer System where Thread A holds a lock on Account X and waits for Account Y, while Thread B holds Account Y and waits for Account X. Then resolve the deadlock using the lock ordering strategy.
+
+19.Demonstrate a race condition in a Ticket Booking System where 10 threads simultaneously try to book the last available seat. Show the incorrect output, then fix it using the synchronized keyword and compare both outputs.
+
+20.Using 10 threads, each doing 1000 increments on a shared Shopping Cart counter, compare a non-synchronized counter, a synchronized counter, and an AtomicInteger-based counter. Measure the execution time and correctness of each, and explain the results.
