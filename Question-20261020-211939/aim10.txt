@@ -1,0 +1,1 @@
+To differentiate between the == operator and the equals() method by comparing two bank account objects by reference and by content (account number).
