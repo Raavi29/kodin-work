@@ -1,0 +1,1 @@
+In the first run each thread held one lock and waited forever for the other, so both stayed BLOCKED and the deadlock detector found 2 deadlocked threads. In the second run every thread took the locks in the same order (lower id first), so a circular wait could not form, and both transfers completed. Lock ordering breaks the circular wait condition.
