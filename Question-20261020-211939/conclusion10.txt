@@ -1,0 +1,1 @@
+The == operator checks whether two references point to the same object, while equals() checks content when a class overrides it. a1 and a2 are different objects with the same account number, so == gives false and equals() gives true. Without an override, equals() behaves like ==.
