@@ -1,0 +1,9 @@
+Step 1: Start
+Step 2: Define class Account with an id and a balance
+Step 3: Write unsafeTransfer(from, to): lock from, sleep briefly, then lock to and move the money
+Step 4: Create accounts X (id 1) and Y (id 2). Start Thread-A with unsafeTransfer(X, Y) and Thread-B with unsafeTransfer(Y, X) as daemon threads
+Step 5: Join both with a timeout, print their states (both stay BLOCKED) and ask ThreadMXBean.findDeadlockedThreads() for the count of deadlocked threads
+Step 6: Write orderedTransfer(from, to): always lock the account with the smaller id first, then the other
+Step 7: Create fresh accounts and run Thread-C and Thread-D with opposite directions using orderedTransfer
+Step 8: Join both threads, print the balances and confirm both finished
+Step 9: Stop
