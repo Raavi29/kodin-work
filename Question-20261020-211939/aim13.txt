@@ -1,0 +1,1 @@
+To design an abstract class PaymentProcessor with three abstract methods and implement four concrete subclasses (Credit Card, UPI, Net Banking, Wallet), showing abstraction and runtime polymorphism.
