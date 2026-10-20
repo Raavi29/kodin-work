@@ -1,0 +1,9 @@
+Step 1: Start
+Step 2: Define class TicketCounter with seats = 1 and an AtomicInteger to count successful bookings
+Step 3: Write bookUnsafe(): if seats > 0, pause briefly (simulating payment), then do seats-- and record the booking
+Step 4: Write bookSafe(): the same logic but declared synchronized
+Step 5: Define thread class Customer that calls bookSafe or bookUnsafe
+Step 6: In main, run 10 Customer threads on a fresh counter with the unsafe method, join them and print bookings and seats left
+Step 7: Repeat with the synchronized method on a fresh counter
+Step 8: Compare the two outputs
+Step 9: Stop
