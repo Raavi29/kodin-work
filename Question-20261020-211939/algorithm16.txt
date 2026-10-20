@@ -1,0 +1,8 @@
+Step 1: Start
+Step 2: Define base class Account and subclasses SavingsAccount (addInterest), CurrentAccount (showOverdraft) and LoanAccount (payEmi)
+Step 3: In main, store one object of each subclass in an Account array (upcasting)
+Step 4: Loop through the array, and for each element use instanceof to find its real type, downcast, and call the type-specific method
+Step 5: Take the SavingsAccount object through an Account reference and cast it to LoanAccount inside a try block
+Step 6: Catch the ClassCastException that occurs at run time and print a message
+Step 7: Repeat the cast, this time guarded by instanceof, so the cast is skipped safely
+Step 8: Stop
