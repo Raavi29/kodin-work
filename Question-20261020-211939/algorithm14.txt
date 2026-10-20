@@ -1,0 +1,8 @@
+Step 1: Start
+Step 2: Define interface SmartDevice with turnOn(), turnOff() and getStatus()
+Step 3: Define Light, Fan, AirConditioner and SecurityCamera, each implementing all three methods with its own state
+Step 4: In main, create an ArrayList<SmartDevice> and add one object of each device
+Step 5: Loop through the list and call turnOn() on every device
+Step 6: Loop again and print getStatus() for every device
+Step 7: Loop to call turnOff(), then print the statuses again
+Step 8: Stop
