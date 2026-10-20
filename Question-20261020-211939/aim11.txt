@@ -1,0 +1,1 @@
+To implement a BankAccount class that encapsulates balance, account number and holder name, with balance changed only through deposit() and withdraw() using validation rules such as no overdraft.
